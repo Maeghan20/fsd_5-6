@@ -1,0 +1,102 @@
+{
+  "reports": [
+    {
+      "id": 1,
+      "platformId": 1,
+      "platform": "Streamly",
+      "title": "Cancellation takes several screens",
+      "category": "Obstruction",
+      "description": "The cancellation route is difficult to locate and requires several confirmation screens. The user is repeatedly prompted to keep the subscription.",
+      "evidence": "https://example.com/evidence/cancel-flow",
+      "submittedBy": "Community report",
+      "date": "2026-10-28",
+      "status": "Published",
+      "severity": "High",
+      "reviewerNote": "The submitted journey shows repeated retention prompts. Published as a documented user experience, not a legal finding."
+    },
+    {
+      "id": 2,
+      "platformId": 2,
+      "platform": "Cartwise",
+      "title": "Add-on appears preselected at checkout",
+      "category": "Sneaking",
+      "description": "An optional protection add-on appeared selected by default during checkout. The selection was not obvious in the order summary.",
+      "evidence": "https://example.com/evidence/checkout",
+      "submittedBy": "Community report",
+      "date": "2026-10-30",
+      "status": "Under review",
+      "severity": "Medium",
+      "reviewerNote": ""
+    },
+    {
+      "id": 3,
+      "platformId": 3,
+      "platform": "FitHabit",
+      "title": "Repeated prompts after declining trial",
+      "category": "Nagging",
+      "description": "The app repeatedly displays prompts to start a free trial after the user chooses to continue with the free version.",
+      "evidence": "",
+      "submittedBy": "Community report",
+      "date": "2026-11-01",
+      "status": "Pending review",
+      "severity": "Low",
+      "reviewerNote": ""
+    },
+    {
+      "id": 4,
+      "platformId": 1,
+      "platform": "Streamly",
+      "title": "Renewal price is hard to notice",
+      "category": "Interface interference",
+      "description": "The renewal amount is visually less prominent than the introductory offer. More evidence is needed to understand the full journey.",
+      "evidence": "",
+      "submittedBy": "Community report",
+      "date": "2026-11-02",
+      "status": "Needs more evidence",
+      "severity": "Medium",
+      "reviewerNote": "Request a screenshot of the final confirmation step."
+    }
+  ],
+  "platforms": [
+    {
+      "id": 1,
+      "name": "Streamly",
+      "type": "Subscription service",
+      "website": "streamly.example"
+    },
+    {
+      "id": 2,
+      "name": "Cartwise",
+      "type": "E-commerce",
+      "website": "cartwise.example"
+    },
+    {
+      "id": 3,
+      "name": "FitHabit",
+      "type": "Mobile application",
+      "website": "fithabit.example"
+    }
+  ],
+  "findings": [
+    {
+      "id": 1,
+      "reportId": 1,
+      "platform": "Streamly",
+      "title": "Difficult cancellation journey",
+      "category": "Obstruction",
+      "severity": "High",
+      "status": "Published",
+      "date": "2026-10-29"
+    }
+  ],
+  "responses": [
+    {
+      "id": 1,
+      "reportId": 1,
+      "platform": "Streamly",
+      "message": "We are reviewing the cancellation flow and will provide an update.",
+      "status": "Acknowledged",
+      "date": "2026-10-31"
+    }
+  ]
+}
